@@ -1,2 +1,2 @@
 target
-common/rad/views/*.xsd
+common/src/main/rad/views/**/*.xsd

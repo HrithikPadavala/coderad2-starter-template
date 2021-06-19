@@ -1,6 +1,11 @@
 <?xml version="1.0"?>
-<y>
-    <title>Hi World</title>
-    <label>Hello World8</label>
-    <browserComponent url="https://www.codenameone.com" preferredH="400"/>
+<y safeArea="true" style.paddingLeft="5vw" style.paddingRight="5vw" style.paddingTop="5vw" style.paddingBottom="5vw"
+   xsi:noNamespaceSchemaLocation="StartPage.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <title>CodeRAD Starter Template</title>
+
+    <spanLabel style.marginBottom="1rem">This is the CodeRAD2 starter template for building native mobile apps in Java and Kotlin</spanLabel>
+
+    <spanLabel>CodeRAD helps you build better, more maintainable apps with less code, and in less time than other toolkits.</spanLabel>
+
+    <button rad-href="https://github.com/shannah/CodeRAD _blank">Get Started</button>
 </y>
