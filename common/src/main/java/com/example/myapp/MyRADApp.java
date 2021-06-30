@@ -21,8 +21,10 @@ public class MyRADApp extends ApplicationController {
 
     public void actionPerformed(ControllerEvent evt) {
         with(evt, StartEvent.class, startEvent -> {
-            startEvent.setShowingForm(true);
-            new StartPageController(this).show();
+            if (!startEvent.isShowingForm()) {
+                startEvent.setShowingForm(true);
+                new StartPageController(this).show();
+            }
         });
         super.actionPerformed(evt);
     }
