@@ -64,6 +64,7 @@
 
         <cn1.version>7.0.30</cn1.version>
 
+        <coderad.version>2.0-pre4</coderad.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
@@ -97,6 +98,12 @@
 
         <dependencies>
 
+            <dependency>
+                <groupId>com.codenameone</groupId>
+                <artifactId>coderad-lib</artifactId>
+                <type>pom</type>
+                <version>${coderad.version}</version>
+            </dependency>
 
             <dependency>
 
@@ -471,7 +478,7 @@
         <dependency>
             <groupId>com.codenameone</groupId>
             <artifactId>coderad-annotation-processor</artifactId>
-            <version>2.0-PREVIEW2</version>
+            <version>${coderad.version}</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
