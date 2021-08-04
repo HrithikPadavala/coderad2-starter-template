@@ -1,6 +1,7 @@
 #Constants {
     includeNativeBool: true;
     defaultFontSizeInt: 18;
+    defaultSourceDPIInt: "0";
 }
 
 StartPageH2 {
